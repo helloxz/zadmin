@@ -289,7 +289,8 @@ const userOptions = [
     height: calc(100vh - 64px);
 }
 :deep(.dashboard-content .n-tabs .n-tabs-nav){
-    background: transparent;
+    /* background: transparent; */
+    background: #F5F7F9 !important;
     border-bottom: none !important;
 }
 :deep(.dashboard-content .n-tabs-tab--active){
