@@ -282,10 +282,20 @@ const userOptions = [
     background-color: #f0f2f5;
 }
 .dashboard-content{
+    background-color: #F5F7F9;
     /* background-color: yellow; */
     /* margin: 16px 0; */
     padding:10px 0px 10px 16px;
     height: calc(100vh - 64px);
+}
+:deep(.dashboard-content .n-tabs .n-tabs-nav){
+    background: transparent;
+    border-bottom: none !important;
+}
+:deep(.dashboard-content .n-tabs-tab--active){
+    background: #ffffff !important;
+    border-bottom: 1px solid rgb(239, 239, 245) !important;
+    color:#2d8cf0 !important;
 }
 .logo{
     display: flex;
@@ -322,7 +332,7 @@ const userOptions = [
     position:sticky;
     top:0;
     right:0;
-    height: 60px;
+    /* height: 60px; */
     /* 添加底部轻微阴影特效 */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     
