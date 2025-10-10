@@ -59,7 +59,7 @@ const login = () => {
   background-color: #ffffff;
 }
 .title{
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .n-gradient-text{
   font-size: 18px;
